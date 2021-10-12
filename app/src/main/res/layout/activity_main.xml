@@ -5,10 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textView"
+
+    <ListView
+        android:id="@+id/activity_main_lista_de_alunos"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:text="Caio Vinicius" />
+        android:layout_height="match_parent" />
 </LinearLayout>
