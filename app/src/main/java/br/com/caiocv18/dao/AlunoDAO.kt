@@ -4,7 +4,9 @@ import br.com.caiocv18.model.Aluno
 
 class AlunoDAO {
 
-    private val alunos = ArrayList<Aluno>()
+    companion object{
+        private val alunos = ArrayList<Aluno>()
+    }
 
     fun salva(aluno : Aluno) {
         alunos.add(aluno)
